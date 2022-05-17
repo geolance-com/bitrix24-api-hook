@@ -1,0 +1,25 @@
+{
+    "name": "fomvasss/bitrix24-api-hook",
+    "description": "A PHP library for the Bitrix24 REST API",
+    "type": "composer-package",
+    "keywords": ["bitrix", "bitrix24", "hook", "webhook"],
+    "authors": [
+        {
+            "name": "Vasyl Fomin",
+            "email": "fomvasss@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php" : ">=5.5.0"
+    },
+     "require-dev": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fomvasss\\Bitrix24ApiHook\\": "src/"
+        }
+    }
+}
